@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01135DF929C42D7800402AEC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01135DF829C42D7800402AEC /* MainView.swift */; };
 		012CB92729C23F0800399F45 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012CB92629C23F0800399F45 /* LoginView.swift */; };
 		0151242B29B5995B00B1B4F5 /* carefirst_notes_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151242A29B5995B00B1B4F5 /* carefirst_notes_iosApp.swift */; };
-		0151242D29B5995B00B1B4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151242C29B5995B00B1B4F5 /* ContentView.swift */; };
 		0151242F29B5995B00B1B4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0151242E29B5995B00B1B4F5 /* Assets.xcassets */; };
 		0151243229B5995B00B1B4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0151243129B5995B00B1B4F5 /* Preview Assets.xcassets */; };
 		0151243429B5995B00B1B4F5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151243329B5995B00B1B4F5 /* Persistence.swift */; };
@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01135DF829C42D7800402AEC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		012CB92629C23F0800399F45 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0151242729B5995B00B1B4F5 /* carefirst-notes-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carefirst-notes-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0151242A29B5995B00B1B4F5 /* carefirst_notes_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carefirst_notes_iosApp.swift; sourceTree = "<group>"; };
-		0151242C29B5995B00B1B4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0151242E29B5995B00B1B4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0151243129B5995B00B1B4F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0151243329B5995B00B1B4F5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -60,12 +60,12 @@
 			children = (
 				0182E28A29B6E77F005C99F8 /* Info.plist */,
 				0151242A29B5995B00B1B4F5 /* carefirst_notes_iosApp.swift */,
-				0151242C29B5995B00B1B4F5 /* ContentView.swift */,
 				0151242E29B5995B00B1B4F5 /* Assets.xcassets */,
 				0151243329B5995B00B1B4F5 /* Persistence.swift */,
 				0151243529B5995B00B1B4F5 /* carefirst_notes_ios.xcdatamodeld */,
 				0151243029B5995B00B1B4F5 /* Preview Content */,
 				012CB92629C23F0800399F45 /* LoginView.swift */,
+				01135DF829C42D7800402AEC /* MainView.swift */,
 			);
 			path = "carefirst-notes-ios";
 			sourceTree = "<group>";
@@ -149,9 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0151243429B5995B00B1B4F5 /* Persistence.swift in Sources */,
-				0151242D29B5995B00B1B4F5 /* ContentView.swift in Sources */,
 				0151243729B5995B00B1B4F5 /* carefirst_notes_ios.xcdatamodeld in Sources */,
 				012CB92729C23F0800399F45 /* LoginView.swift in Sources */,
+				01135DF929C42D7800402AEC /* MainView.swift in Sources */,
 				0151242B29B5995B00B1B4F5 /* carefirst_notes_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
