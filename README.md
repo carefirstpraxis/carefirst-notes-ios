@@ -2,4 +2,4 @@
 CareFirst Notes - iOS
 
 
-![alt text](http://g.recordit.co/kGMkRP5ETG.gif "Application in action - iOS")
+![alt text](http://g.recordit.co/4Q4T5IUTon.gif "Application in action - iOS")
