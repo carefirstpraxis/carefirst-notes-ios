@@ -14,6 +14,9 @@
 		0151243229B5995B00B1B4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0151243129B5995B00B1B4F5 /* Preview Assets.xcassets */; };
 		0151243429B5995B00B1B4F5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151243329B5995B00B1B4F5 /* Persistence.swift */; };
 		0151243729B5995B00B1B4F5 /* carefirst_notes_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0151243529B5995B00B1B4F5 /* carefirst_notes_ios.xcdatamodeld */; };
+		01C5166B2A0C189700482B09 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 01C5166A2A0C189700482B09 /* Models */; };
+		01C5166F2A0C1B0A00482B09 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 01C5166E2A0C1B0A00482B09 /* Views */; };
+		01C516712A0C1D3800482B09 /* Configuration in Resources */ = {isa = PBXBuildFile; fileRef = 01C516702A0C1D3800482B09 /* Configuration */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		0151243329B5995B00B1B4F5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0151243629B5995B00B1B4F5 /* carefirst_notes_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = carefirst_notes_ios.xcdatamodel; sourceTree = "<group>"; };
 		0182E28A29B6E77F005C99F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		01C5166A2A0C189700482B09 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		01C5166E2A0C1B0A00482B09 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		01C516702A0C1D3800482B09 /* Configuration */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configuration; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 		0151242929B5995B00B1B4F5 /* carefirst-notes-ios */ = {
 			isa = PBXGroup;
 			children = (
+				01C516702A0C1D3800482B09 /* Configuration */,
+				01C5166E2A0C1B0A00482B09 /* Views */,
+				01C5166A2A0C189700482B09 /* Models */,
 				0182E28A29B6E77F005C99F8 /* Info.plist */,
 				0151242A29B5995B00B1B4F5 /* carefirst_notes_iosApp.swift */,
 				0151242E29B5995B00B1B4F5 /* Assets.xcassets */,
@@ -136,8 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C5166B2A0C189700482B09 /* Models in Resources */,
 				0151243229B5995B00B1B4F5 /* Preview Assets.xcassets in Resources */,
 				0151242F29B5995B00B1B4F5 /* Assets.xcassets in Resources */,
+				01C5166F2A0C1B0A00482B09 /* Views in Resources */,
+				01C516712A0C1D3800482B09 /* Configuration in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
