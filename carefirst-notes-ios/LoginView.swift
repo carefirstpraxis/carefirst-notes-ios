@@ -83,7 +83,7 @@ struct LoginView: View {
     if (!validate()) {
       return
     }
-    guard let url = URL(string: "http://192.168.86.29:8000/api/public/login") else {
+    guard let url = URL(string: "http://192.168.86.29:8080/cfpm/app/login") else {
       return
     }
 
@@ -94,7 +94,9 @@ struct LoginView: View {
     
     let body: [String: AnyHashable] = [
       "username": username,
-      "password": password
+      "password": password,
+      "clientType": "user",
+      "module": "pm"
     ]
     request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
     
@@ -129,9 +131,6 @@ struct LoginView: View {
   
   
   func validate() -> Bool {
-    let emailValidationRegex = "^[\\p{L}0-9!#$%&'*+\\/=?^_`{|}~-][\\p{L}0-9.!#$%&'*+\\/=?^_`{|}~-]{0,63}@[\\p{L}0-9-]+(?:\\.[\\p{L}0-9-]{2,7})*$"
-    let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailValidationRegex)
-    let evalResult = emailPredicate.evaluate(with: username)
     usernameError = ""
     passwordError = ""
     submitError = ""
@@ -139,10 +138,6 @@ struct LoginView: View {
     
     if username.isEmpty {
       usernameError = "Username required"
-      isValid = false
-    }
-    else if evalResult == false {
-      usernameError = "Invalid email"
       isValid = false
     }
     if password.isEmpty {
